@@ -1,0 +1,133 @@
+@CHARSET "UTF-8";
+html, body{height:100%;font-family:Arial,"微软雅黑","黑体",sans-serif;}
+#header{
+	height: 25%;
+}
+#loginContainer{
+	position:relative;
+	height:100%;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bbdaef', endColorstr='#ffffff',GradientType=0);/*IE*/
+	background:#f0f5f8; /* 一些不支持背景渐变的浏览器 */ 
+	background:-moz-linear-gradient(top, #bbdaef, rgba(255, 255, 255, 0.5)); 
+	background:-webkit-gradient(linear, 0 0, 0 bottom, from(#bbdaef), to(rgba(255, 255, 255, 0.5)))
+}
+#loginHeader{
+	height: 362px;
+	width: 1097px;
+	margin: 0 auto;
+}
+#loginHeader .loginHeaderImage{
+	margin: 0;
+	height: 181px;
+}
+#loginHeader .loginHeaderImage img{
+	display:inline-block;
+	margin:0;
+}
+#loginFormContainerAll{background : rgb(255,255,255);}
+#loginFormContainer{height: 300px;width: 1097px;margin: 0 auto;}
+#systemNameContainer{
+	float:left;
+	width: 611px;
+	height: 185px;
+	padding-top: 115px;
+}
+#logo{
+	float: left;
+	height: 71px;
+	width: 132px;
+	line-height: 71px;
+	margin-left: 20px;
+}
+#logo img{
+	width: 178px;
+	height: 71px;
+	line-height: 71px;
+	border: 0;
+	vertical-align:middle;
+}
+#systemName{
+	height: 71px;
+	line-height: 71px;
+	width:399px;
+	float: left;
+	font-weight: bold;
+	font-size:30px;
+	margin-left: 60px;
+}
+#loginForm{
+	float:left;
+	width: 486px;
+	height: 170px;
+	padding: 65px 0px;
+	font-size:18px;
+	color: #0c79c9;
+	background-size:410px 250px;
+}
+.formRow{
+	margin: 20px 0px;
+}
+.rowLabel{
+	display:inline-block;
+	width: 100px;
+	text-align:right;
+	height: 22px;
+	line-height: 22px;
+	margin-left: 60px;
+}
+.rowInput{
+	display:inline-block;
+	width: 200px;
+	text-align: left;
+}
+.rowInput input{
+	border: 1px solid #5ca6da;
+	width: 180px;
+	height: 22px;
+	line-height: 22px;
+}
+.loginbtn, .loginbtn_on, .loginbtn_down, 
+.resetbtn, .resetbtn_on, .resetbtn_down {
+	width: 91px;
+	height: 31px;
+	border: 0;
+	margin: 0px 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	cursor: pointer;
+}
+.loginbtn, .loginbtn_on, .loginbtn_down{
+	margin-left: 112px;
+	background: url(../images/login/loginbtnbg.png) no-repeat;
+}
+.loginbtn_on{
+	background: url(../images/login/loginbtnbg_on.png) no-repeat;
+}
+.loginbtn_down{
+	background: url(../images/login/loginbtnbg_down.png) no-repeat;
+}
+.resetbtn{
+	background: url(../images/login/resetbtnbg.png) no-repeat;
+}
+.resetbtn_on{
+	background: url(../images/login/resetbtnbg_on.png) no-repeat;
+}
+.resetbtn_down{
+	background: url(../images/login/resetbtnbg_down.png) no-repeat;
+}
+#loginFooter{
+	width: 1097px;
+	margin: 0 auto;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	font-size:14px;
+	background: url(../images/login/splitline.png) no-repeat center top;
+}
+#houseName{
+	border: 1px solid #5ca6da;
+	width: 185px;
+	height: 25px;
+	line-height: 22px;
+}
